@@ -1,0 +1,226 @@
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+
+select.ui-datepicker-year:focus{
+	outline: none;
+}
+
+html, body{
+	position: relative;
+	min-height: 100%;
+}
+.row{
+	margin:0;
+}
+.header{
+	padding:10px 5px;
+}
+.top-left-ls{
+	display: table-caption;
+}
+.header-bottom-text{
+	color:#00a255;
+	margin-left:20px;
+}
+.top-left-rs{
+	vertical-align: middle;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #92cc65;
+}
+.logo-img{
+	width: 185px;
+	display: inline-block;
+}
+.logo-img img{
+	width:100%;
+}
+.body-of-page{
+	background-color: #e6e6e6;
+}
+h1, h2, h3, h4, h5, h6{
+	display: inline-block;
+}
+.lists{
+	float: left;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin: 1%;
+    margin-left: 2%;
+    background-color: #f8f7f7;
+}
+.left-side{
+	float:left;
+}
+.right-side{
+	float:right;
+	width:60%;
+}
+
+.discount{
+	border: 1px solid #ee524a;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #ff685f;
+    color:#fff;
+    float:left;
+    font-weight: 600;
+    white-space: normal;
+}
+.likes{
+	float:right;
+	border:1px solid;
+	background-color: #e5e5e5;
+	padding: 15px;
+    width: 65px;
+    margin-right:60px;
+}
+.right-side > div{
+	margin:10px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	font-size: 18px;
+}
+.name-of-item-header{
+	color:#5bbcb6;
+	margin-left:15px;
+}
+.fa-star{
+	color:#9d9d9d;
+}
+.rating{
+	color:#ff8e5b;
+	margin-left:10px;
+}
+.image-of-item{
+	width:95px;
+	height:145px;
+}
+.star-active{
+	color:#ff8e5b;
+}
+.manufacturer{
+	color:#bebebe;
+	margin:10px 15px;
+	margin-right: 0;
+}
+.manufacturer:last-child{
+	margin-left: 0;
+}
+.final-price{
+	color:#6da64d;
+	margin-left:10px;
+	display: inline-block;
+}
+.fa-link{
+	margin-right: 10px;
+}
+.fa-tag{
+	margin-right:10px;
+}
+strike{
+	margin-left:10px;
+	color:#c9c9c9;
+}
+.link-of-item{
+	margin-left:10px;
+}
+.no-of-likes{
+	margin-left:5px;
+	display: inline-block;
+	
+}
+.likes:hover, .likes-clicked{
+	color:#fff;
+	background-color: #ff8e5b;
+	cursor:pointer;
+}
+.top-box{
+	border:2px solid #4c7a34;
+	border-radius: 5px;
+	background-color: #dfedd6;
+	width:315px;
+	height:40px;
+	float: right;
+    margin-right: 30%;
+    margin-top:10px;
+}
+.top-box span{
+	display: inline-block;
+	margin-top:10px;
+}
+.amnt{
+	font-weight: bold;
+	margin-left:10px;
+}
+@media all and (max-width:640px){
+	.lists{
+		width:96%;
+	}
+	.top-box{
+		margin-right:0;
+	}
+}
+@media (min-width:641px) and (max-width:980px){
+	.lists{
+		width:47%;
+	}
+	.top-box{
+		margin-right:10%;
+	}
+}
